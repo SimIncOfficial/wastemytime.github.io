@@ -35,7 +35,7 @@ body {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-	background: url('../img/bangkok-city.jpg') no-repeat;
+	background: url('../video/background.jpg') no-repeat;
 	background-size: cover;
 	transition: 1s opacity;
 }
@@ -177,7 +177,7 @@ button:focus { outline: none; }
 
 .tm-home-container {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 1150px;
 	width: 95%;
 }
 
@@ -200,12 +200,16 @@ button:focus { outline: none; }
 }
 .tm-bg-brown { background-color: #856729; }
 .tm-bg-dark-brown { background-color: #5a471c; }
+.tm-activity-description-container {
+    padding: 50px;
+	padding-right: 100px;
+}
 .tm-home-description-container { padding: 50px; }
 
 .tm-home-container-bg {
 	background-color: white;
     width: 100%;
-    max-width: 840px;
+    max-width: 1190px;
     margin: 0 auto;
     position: absolute;
     z-index: -1;
@@ -216,7 +220,7 @@ button:focus { outline: none; }
 
 .tm-home-container-outer {
     position: relative;
-    max-width: 840px;
+    max-width: 1190px;
     margin: 0 auto;
 }
 
